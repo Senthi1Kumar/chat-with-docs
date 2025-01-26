@@ -176,8 +176,8 @@ temp/
 # Streamlit
 .streamlit/
 
-# Milvus DB
-milvus.db
+# # Milvus DB
+# milvus.db
 
 # .env
 config/.env
