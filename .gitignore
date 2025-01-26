@@ -181,7 +181,7 @@ milvus.db
 
 # .env
 config/.env
-config/settings.yaml
+# config/settings.yaml
 
 # data
 data/

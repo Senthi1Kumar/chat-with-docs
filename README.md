@@ -19,21 +19,20 @@ A simple RAG-powered assistant for querying Ellie.ai's technical documentation u
 ## Installation
 ```bash
 git clone https://github.com/Senthi1Kumar/chat-with-docs.git
-cd ellie-doc-chat
+cd chat-with-docs
 python -m venv .venv
 # source .venv/bin/activate or .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
 ## Configuration
-1. Copy example config:
+1. Copy example config and update environment variable (.env) with your Groq API:
 ```bash
-cp config/settings.example.yaml config/settings.yaml
-cp config/.env.example config.env
+cp config/.env.example config/.env
 ```
 2. Update with your:
    - Documentation URLs
-   - Milvus connection details
+   - Milvus connection details - path to store the DB
    - Device preferences (CPU/GPU)
 
 ## Usage
