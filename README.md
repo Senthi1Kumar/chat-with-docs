@@ -14,7 +14,7 @@ A simple RAG-powered assistant for querying Ellie.ai's technical documentation u
 ## Prerequisites
 - Python 3.10+
 - Groq API Key (set as `GROQ_API_KEY` in environment)
-- Milvus instance
+- Milvus DB
 
 ## Installation
 ```bash
