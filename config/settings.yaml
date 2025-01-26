@@ -17,7 +17,7 @@ retrieval:
   top_k: 5
 
 device:
-  type: 'cuda'
+  type: 'cpu'
 
 web_urls:
   - 'https://ellie.atlassian.net/wiki/spaces/ELLIE/pages/1166770177/Analytics+Engineering+Workflow+Trial+Server+Beta+Functionality'
