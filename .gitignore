@@ -169,3 +169,19 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Temp
+temp/
+
+# Streamlit
+.streamlit/
+
+# Milvus DB
+milvus.db
+
+# .env
+config/.env
+config/settings.yaml
+
+# data
+data/

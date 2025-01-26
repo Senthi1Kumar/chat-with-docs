@@ -1,0 +1,15 @@
+tqdm
+docling
+pymilvus
+streamlit
+langchain
+langchain-core
+langchain-huggingface
+langchain-docling
+langchain-groq
+pydantic
+datasets
+ragas
+plotly
+numpy
+sentence-transformers
