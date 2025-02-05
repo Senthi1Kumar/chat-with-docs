@@ -5,9 +5,11 @@ models:
   embedding_model: "sentence-transformers/all-mpnet-base-v2"
   embed_model_dim: 768
 
+google_genai:
+  model: "gemini-1.5-flash-8b-latest"
+
 groq:
   llm: 'llama-3.3-70b-versatile'
-  eval_llm: "mixtral-8x7b-32768"
 
 chunking:
   chunk_size: 512

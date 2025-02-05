@@ -9,11 +9,11 @@ A simple RAG-powered assistant for querying Ellie.ai's technical documentation u
 - Source citation with document references
 - Conversation history tracking
 - Hallucination safeguards
-- Performance metrics monitoring
+
 
 ## Prerequisites
 - Python 3.10+
-- Groq API Key (set as `GROQ_API_KEY` in environment)
+- Groq/Google Gemini API Key (set as `GROQ_API_KEY` or `GOOGLE_API_KEY` in environment)
 - Milvus DB
 
 ## Installation
@@ -44,13 +44,13 @@ python index_docs.py
 ```bash
 streamlit run app.py
 ```
+3. To Execute evaluation, please set the Gemini API key in `.env` file:
+```bash
+python evaluate.py
+```
 
-## Evaluation Framework [WIP]
-- Faithfulness scoring
-- Context relevance metrics
-- Hallucination detection
-- Retrieval performance tracking
-- Latency monitoring
+## Evaluation Framework
+The evaluation framework provided in `evaluate.py` is designed to access the performance of our RAG system which leverages Google Generative AI (via `ChatGoogleGenerativeAI` class). It prepares an evaluation dataset, runs the RAG system on a set of pre-defined test questions, and computes multiple evaluation metrics such as *Faithfulness*, *Answer Correctness*, *Context Recall*, *LLM Context Recall*, and *Factual Correctness* using the **RAGAS** library.
 
 ## License
 MIT License

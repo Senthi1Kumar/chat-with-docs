@@ -13,3 +13,4 @@ ragas
 plotly
 numpy
 sentence-transformers
+langchain-google-genai
